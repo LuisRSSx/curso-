@@ -1,26 +1,35 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
-    <link rel="stylesheet" href="recursos/css/estilo.css">
-    <title>Curso PHP</title>
-</head>
-<body>
-    <header class="cabecalho">
-        <h1>Curso PHP</h1>
-        <h2>Índice dos Exercícios</h2>
-    </header>
-    <main class="principal">
-        <div class="conteudo">
-<<<<<<< HEAD
-            <nav class="modulos">
+<nav class="modulos">
                 <div class="modulo roxo-escuro">
                     <h3>9. Includes</h3>
                     <ul>
                         <li>
                             <a href="exercicio.php?dir=includes&file=include">
                                 Include
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_funcao">
+                                Include Função
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_require">
+                                Include vs Require
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=require_return">
+                                Require & Return
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=include_once">
+                                Include Once
+                            </a>
+                        </li>
+                        <li>
+                            <a href="exercicio.php?dir=includes&file=desafio">
+                                Desáfio do Módulo
                             </a>
                         </li>
                     </ul>
@@ -436,13 +445,3 @@
                     </ul>
                 </div>
             </nav>
-=======
-            <?php require_once('menu.php'); ?>
->>>>>>> 37bf154 (first commit)
-        </div>
-    </main>
-    <footer class="rodape">
-        COD3R & ALUNOS © <?= date('Y'); ?>
-    </footer>
-</body>
-</html>
