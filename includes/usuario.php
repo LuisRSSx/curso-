@@ -9,16 +9,10 @@ class Usuario extends Pessoa {
         // $this->idade = $idade;
         parent::__construct($nome, $idade);
         $this->login = $login;
-        echo 'Usuario Criado! <br>';
-    }
-
-    function __destruct() {
-        echo 'Usuário diz: Tchau!! <br>';
-        parent::__destruct();
     }
 
     function apresentar() {
-        echo "@{$this->login}: ";
-        parent::apresentar();
+        $login = "@{$this->login}: ";
+        return $login . parent::apresentar();
     }
 }
